@@ -1,50 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Your Name | Data Analyst</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shafeen | Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <header>
-        <h1>Your Name</h1>
-        <p>Aspiring Data Analyst | Excel • Power BI • SQL • Python</p>
-    </header>
+  <header>
+    <div class="container">
+      <h1>Shafeen</h1>
+      <p>Aspiring Data Analyst | Excel • Power BI • SQL • Python</p>
+    </div>
+  </header>
 
-    <section>
+  <main class="container">
+
+    <section class="section">
+      <div class="card">
         <h2>About Me</h2>
         <p>
-            I am a Computer Science student passionate about analyzing data 
-            and building dashboards using Excel and Power BI.
-            I am currently expanding my skills in SQL and Python.
+          I am a CSE student from Bangladesh passionate about analyzing data and
+          building dashboards using Excel and Power BI. I’m currently improving
+          my SQL and Python skills to prepare for both local and remote roles.
         </p>
+      </div>
     </section>
 
-    <section>
+    <section class="section">
+      <div class="card">
         <h2>Skills</h2>
-        <ul>
-            <li>Microsoft Excel</li>
-            <li>Power BI</li>
-            <li>SQL</li>
-            <li>Python</li>
-        </ul>
+        <div class="skills">
+          <span class="skill">Excel (Pivot, VLOOKUP)</span>
+          <span class="skill">Power BI (DAX, Modeling)</span>
+          <span class="skill">Power Query</span>
+          <span class="skill">Data Visualization</span>
+          <span class="skill">SQL (Learning)</span>
+          <span class="skill">Python (Learning)</span>
+        </div>
+      </div>
     </section>
 
-    <section>
+    <section class="section">
+      <div class="card">
         <h2>Projects</h2>
-        <p><strong>Sales Dashboard (Power BI)</strong></p>
-        <p>Built interactive dashboard to analyze regional sales performance.</p>
 
-        <p><strong>Financial Analysis (Excel)</strong></p>
-        <p>Created automated reports using Pivot Tables and formulas.</p>
+        <div class="project">
+          <h3>Power BI Project 1 — (Your Project Title)</h3>
+          <span class="badge">Power BI</span>
+          <p>1–2 lines about what you analyzed and what insights the dashboard gives.</p>
+          <p><strong>Key insights:</strong> Insight 1, Insight 2, Insight 3</p>
+        </div>
+
+        <div class="project">
+          <h3>Power BI Project 2 — (Your Project Title)</h3>
+          <span class="badge">Power BI</span>
+          <p>1–2 lines about this dashboard.</p>
+          <p><strong>Key insights:</strong> Insight 1, Insight 2, Insight 3</p>
+        </div>
+
+        <div class="project">
+          <h3>Excel Project 1 — (Your Project Title)</h3>
+          <span class="badge">Excel</span>
+          <p>1–2 lines about what you automated/analyzed.</p>
+          <p><strong>Key insights:</strong> Insight 1, Insight 2, Insight 3</p>
+        </div>
+
+        <div class="project">
+          <h3>Excel Project 2 — (Your Project Title)</h3>
+          <span class="badge">Excel</span>
+          <p>1–2 lines about this report/dashboard.</p>
+          <p><strong>Key insights:</strong> Insight 1, Insight 2, Insight 3</p>
+        </div>
+
+      </div>
     </section>
 
-    <section>
+    <section class="section">
+      <div class="card">
         <h2>Contact</h2>
-        <p>Email: your@email.com</p>
-        <p>GitHub: github.com/yourusername</p>
-        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        <p><strong>Email:</strong> ibneyfarook@gmail.com</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/ibneyfarook-afk" target="_blank">github.com/ibneyfarook-afk</a></p>
+        <p><strong>LinkedIn:</strong> <a href="#" target="_blank">Add your LinkedIn link</a></p>
+      </div>
     </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Shafeen — Built with GitHub Pages
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
